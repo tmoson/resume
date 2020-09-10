@@ -1,0 +1,100 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} 
+
+\name{Tyler Moson}
+\address{74 Sedge Road \\ Valley Cottage, New York 10989} 
+\address{(914)~$\cdot$~419~$\cdot$~2472 \\ tyler.p.moson@gmail.com \\ https://github.com/tmoson} 
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Skills}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Programming Languages & Java, Python, C, Common Lisp, Clojure, Prolog \\
+Operating Systems & Windows, MacOS, Linux \\
+Tools & Git, Emacs, PyCharm, IntelliJ, GCC, GDB, Maven, Leiningen \\
+CI/CD Platforms & Jenkins, CircleCI
+\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experience}
+
+\begin{rSubsection}{ActiveViam}{March 2018 - Present}{QA \& Release Engineer}{New York, NY}
+\item Automated performance tests using Python and shell scripting
+\item Increased code coverage by automating test generation with Clojure
+\item Constructed Devops pipeline using CircleCI and Artifactory to test and deliver projects
+\item Debugged Java code and proposed solutions to developers
+\end{rSubsection}
+
+\begin{rSubsection}{ActiveViam}{June 2016-August 2016~$\cdot$~May 2017-August 2017}{Summer Intern}{New York, NY}
+\item Automated deployment of software using Python and Ansible
+\item Created comprehensive behavior-driven tests
+\item Logged and monitored bugs using Atlassian's JIRA ticket platform
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Projects}
+
+{\bf Wikipedia Crawler}\hfill{\em December 2017} \\
+Implemented a Dijkstra's algorithm to find the shortest distance between two pages \\
+Implemented a b-tree for storage and access of pages as nodes \\
+
+{\bf Laker Polling}\hfill{\em May 2017} \\
+Used agile methodology to work with stakeholders and create a web-based quiz application \\
+Implemented a javascript and bootstrap based ui served up by groovy-based backend \\
+
+{\bf Missionaries and Cannibals}\hfill{\em November 2016} \\
+Implemented a state-space problem solver for the Missionaries and Cannibals problem in Common Lisp \\
+Used a breadth-first search of states to find and display a solution \\
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf SUNY Oswego~$\cdot$~Oswego, NY} \hfill {\em August 2015 - December 2017} \\ 
+B.A. in Computer Science \\
+Minor in Psychology \smallskip \\
+Overall GPA: 3.52
+
+{\bf SUNY Rockland Community College~$\cdot$~Suffern, NY}\hfill{\em January - December 2014}\\
+A.S. Liberal Arts, Humanities, and Social Sciences \\
+Overall GPA: 4.0
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
